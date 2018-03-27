@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_white"
+    android:id="@+id/ll_rootView"
+    android:fitsSystemWindows="true"
+    >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50_dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/dimen_40_dp"
+            android:layout_marginRight="@dimen/dimen_40_dp"
+            android:layout_marginTop="@dimen/dimen_50_dp"
+            >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:text="账  号"
+             android:textSize="@dimen/dimen_16_sp"
+             android:gravity="center"
+             android:textColor="@color/color_black_232A33"
+             />
+
+            <com.zhd.mswcs.common.weidgt.edittext.ClearEditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@color/common_white"
+                android:hint="你的手机号码"
+                android:textColorHint="@color/color_gray_3F4E5C"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:textSize="@dimen/dimen_14_sp"
+                android:inputType="text"
+                android:textColor="@color/color_gray_3F4E5C"
+                />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp"
+            android:background="@color/common_line"
+            android:layout_marginLeft="@dimen/dimen_40_dp"
+            android:layout_marginRight="@dimen/dimen_40_dp"
+            />
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50_dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/dimen_40_dp"
+        android:layout_marginRight="@dimen/dimen_40_dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="密  码"
+            android:textSize="@dimen/dimen_16_sp"
+            android:gravity="center"
+            android:textColor="@color/color_black_232A33"
+            />
+
+        <com.zhd.mswcs.common.weidgt.edittext.ClearEditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@color/common_white"
+            android:hint="6位以上字符数字"
+            android:textColorHint="@color/color_gray_3F4E5C"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:textSize="@dimen/dimen_14_sp"
+            android:inputType="textPassword"
+            android:textColor="@color/color_gray_3F4E5C"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/common_line"
+        android:layout_marginLeft="@dimen/dimen_40_dp"
+        android:layout_marginRight="@dimen/dimen_40_dp"
+        />
+
+
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="下一步"
+            android:gravity="center"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/dimen_18_sp"
+            android:layout_marginLeft="@dimen/dimen_40_dp"
+            android:layout_marginRight="@dimen/dimen_40_dp"
+            android:background="@drawable/btn_green_bg"
+            android:layout_marginTop="@dimen/dimen_20_dp"
+            />
+
+    <!--    <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50_dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/dimen_40_dp"
+            android:layout_marginRight="@dimen/dimen_40_dp"
+            android:gravity="right|center_vertical"
+            >
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="没有账号"
+                  android:textColor="@color/common_black"
+                  android:textSize="@dimen/dimen_16_sp"
+                  />
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击这里注册"
+                android:textColor="@color/common_blue"
+                android:textSize="@dimen/dimen_16_sp"
+                />
+       </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40_dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/dimen_40_dp"
+        android:gravity="right|center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_setting_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/setting_ip"
+            android:textColor="@color/color_black_232A33"
+            android:textSize="@dimen/dimen_16_sp"
+            android:gravity="right|center_vertical"
+            />
+    </LinearLayout>
+
+
+    </LinearLayout>
+

@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:paddingTop="@dimen/dimen_5_dp"
+        android:paddingBottom="@dimen/dimen_5_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/common_white"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rb_sos"
+            android:checked="true"
+            android:text="@string/main_sos_text"
+            android:drawableTop="@drawable/rb_sos_selector"
+            style="@style/style_RadioButton"/>
+
+
+
+        <RadioButton
+            android:id="@+id/rb_location"
+            android:text="@string/main_location_text"
+            android:drawableTop="@drawable/rb_location_selector"
+            style="@style/style_RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/rb_message"
+            android:text="@string/main_message_text"
+            android:drawableTop="@drawable/rb_message_selector"
+            style="@style/style_RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/rb_friend"
+            android:text="@string/main_friend_text"
+            android:drawableTop="@drawable/rb_friend_selector"
+            style="@style/style_RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            android:text="@string/main_setting_text"
+            android:drawableTop="@drawable/rb_setting_selector"
+            style="@style/style_RadioButton"/>
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/radioGroup" />
+</RelativeLayout>

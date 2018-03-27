@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_rootView"
+    android:background="@color/common_bg"
+    android:fitsSystemWindows="true"
+    >
+
+   <android.support.v7.widget.RecyclerView
+       android:layout_marginTop="@dimen/dimen_10_dp"
+       android:id="@+id/escalation_cycle_recyclerView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/rl_detail_info">
+
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="@dimen/dimen_10_dp"
+		>
+
+	<ImageView 
+	    android:layout_width="40dp"
+	    android:layout_height="40dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="5dp"
+	    android:src="@mipmap/img_user_head"
+	    android:id="@+id/iv_user_head"
+	    />
+
+	<FrameLayout 
+	    android:id="@+id/id_recoder_length"
+	    android:layout_width="wrap_content"
+	    android:layout_height="@dimen/dimen_40_dp"
+	    android:layout_centerVertical="true"
+	    android:layout_toRightOf="@id/iv_user_head"
+	    android:background="@drawable/img_record_left">
+
+
+	    <View
+			android:id="@+id/id_recoder_anim"
+	        android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:layout_gravity="center_vertical|right"
+			android:layout_marginRight="@dimen/dimen_10_dp"
+	        android:background="@drawable/img_adj_left"/>
+	</FrameLayout>
+
+
+	<TextView 
+	    android:id="@+id/id_recoder_time"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@id/id_recoder_length"
+		android:text="1'"
+		android:layout_marginLeft="3dp"
+		android:textColor="#ff777777"
+	    />
+	
+</RelativeLayout>
+
+</RelativeLayout>

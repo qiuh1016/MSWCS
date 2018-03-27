@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_white"
+    android:id="@+id/ll_rootView"
+    android:fitsSystemWindows="true"
+    >
+
+        <Button
+            android:id="@+id/btn_user_mobile_subscriber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="机动用户"
+            android:gravity="center"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/dimen_18_sp"
+            android:layout_marginLeft="@dimen/dimen_40_dp"
+            android:layout_marginRight="@dimen/dimen_40_dp"
+            android:background="@drawable/btn_green_bg"
+            android:layout_marginTop="@dimen/dimen_100_dp"
+            />
+
+
+
+    <Button
+        android:id="@+id/btn_user_shore_station"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="岸站用户"
+        android:gravity="center"
+        android:textColor="@color/common_white"
+        android:textSize="@dimen/dimen_18_sp"
+        android:layout_marginLeft="@dimen/dimen_40_dp"
+        android:layout_marginRight="@dimen/dimen_40_dp"
+        android:background="@drawable/btn_green_bg"
+        android:layout_marginTop="@dimen/dimen_50_dp"
+        />
+
+
+    </LinearLayout>
+

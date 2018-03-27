@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">短波通信系统</string>
+    <string name="main_sos_text">SOS</string>
+    <string name="main_location_text">位置</string>
+    <string name="main_message_text">消息</string>
+    <string name="main_friend_text">好友</string>
+    <string name="main_setting_text">设置</string>
+    <string name="code_system_error">网络异常，请检查当前网络</string>
+    <string name="setting_ip">设置IP地址</string>
+    <string name="str_recorder_normal">按住说话</string>
+    <string name="str_recorder_recording">松开结束</string>
+    <string name="str_recorder_want_cancel">松开手指，取消发送</string>
+
+    <!--滚动日期选择 -->
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+    <!--更改头像相关-->
+    <string name="upload_pic">上传图片</string>
+    <string name="select_local_img">从相册选择</string>
+    <string name="Photograph">拍照</string>
+    <string name="picture_cutting">图片裁剪</string>
+    <string name="images">图片</string>
+    <string name="all_images">所有图片</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+
+
+</resources>

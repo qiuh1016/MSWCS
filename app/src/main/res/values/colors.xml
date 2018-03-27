@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_bg_color">#D43A32</color>
+    <color name="main_content_bg">#10000000</color>
+    <color name="main_tab_bg">#11000000</color>
+    <color name="main_tab_line_color">#DEE1E3</color>
+    <color name="main_tab_text_normal">#ff847d7b</color>
+    <color name="main_tab_text_select">#ff09BB07</color>
+    <color name="light_blue">#5CACEE</color>
+    <color name="title_bg">#1C2631</color>
+    <color name="indicator_selected_color">@color/common_white</color>
+    <color name="indicator_unselect_color">@color/common_white</color>
+    <!-- 通用颜色 -->
+    <color name="common_bg">#FFEAEAEA</color>
+    <color name="common_black">#FF000000</color>
+    <color name="common_white">#FFFFFFFF</color>
+    <color name="common_red">#FFFF0000</color>
+    <color name="common_green">#FF00FF00</color>
+    <color name="common_green_light">#FF00BE4C</color>
+    <color name="common_blue">#FF0000FF</color>
+    <color name="common_blue_FF2C6FA4">#FF2C6FA4</color>
+    <color name="common_blue_light">#FF2A99D4</color>
+    <color name="common_yellow">#FFFFFF00</color>
+    <color name="common_orange">#FFFFA500</color>
+    <color name="common_gray">#E6363C44</color>
+    <color name="common_gray_light">#ffDEDEDE</color>
+
+    <!-- 滚动日期颜色值-->
+    <color name="color_unit">#B0B0B0</color>
+    <color name="color_item_bg">#FFFFFF</color>
+    <color name="color_text_unselected">#B0B0B0</color>
+    <color name="color_desc">#666666</color>
+    <color name="color_result">#57C5E8</color>
+    <color name="color_bg">#FFFFFF</color>
+    <color name="color_gold">#57C5E8</color>
+    <color name="color_black_363C44">#ff363C44</color>
+    <color name="color_black_232A33">#ff232A33</color>
+    <color name="color_black_545960">#ff545960</color>
+    <color name="color_gray_E5E5E5">#ffE5E5E5</color>
+    <color name="color_gray_9D9FA2">#ff9D9FA2</color>
+    <color name="color_gray_3F4E5C">#E63F4E5C</color>
+    <color name="color_gray_252F3B">#E625303C</color>
+    <color name="color_orange_F7695E">#FFF7695E</color>
+    <color name="color_green_07BF50">#FF07BF50</color>
+    <color name="color_blue_0E82CA">#FF0E82CA</color>
+    <color name="common_blue_E62C6FA4">#E62C6FA4</color>
+    <color name="common_blue_light_E62A99D4">#E62A99D4</color>
+    <color name="common_line">#FFCDCDCD</color>
+
+
+    <!--更改头像相关-->
+    <color name="statusbar_bg">#09A7F0</color>
+    <color name="statusvar_0">#00000000</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#696969</color>
+    <color name="Semi_transparent">#50000000</color>
+    <color name="content_info_corlor">#979797</color>
+    <color name="video_price_color">#F69308</color>
+    <color name="video_free_corlor">#68D214</color>
+    <color name="course_details_root_im">#FF8901</color>
+    <color name="toast_bg_blue">#88188eee</color>
+    <color name="toast_bg_black">#77000000</color>
+    <color name="rating_color">#FAB271</color>
+    <color name="green">#96ee33</color>
+    <color name="setting_list_bg">#f0f0f0</color>
+    <color name="light_blue_1fbaf3">#1fbaf3</color>
+    <color name="light_gray">#E0E0E1</color>
+    <color name="red">#EA0204</color>
+
+
+
+
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_rootView"
+    android:fitsSystemWindows="true"
+    >
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+  <com.baidu.mapapi.map.MapView
+      android:id="@+id/map_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+  </com.baidu.mapapi.map.MapView>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_detail_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gray_bg"
+        android:layout_margin="@dimen/dimen_30_dp"
+        android:gravity="bottom"
+        android:layout_gravity="bottom|center_horizontal"
+        android:paddingTop="@dimen/dimen_5_dp"
+        android:paddingBottom="@dimen/dimen_20_dp"
+        android:paddingLeft="@dimen/dimen_15_dp"
+        android:paddingRight="@dimen/dimen_10_dp"
+        android:orientation="vertical"
+        >
+
+
+      <ImageView
+          android:id="@+id/iv_close"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@mipmap/img_close"
+          android:layout_gravity="right"
+          />
+
+
+
+      <TextView
+          android:id="@+id/tv_gps_time"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textColor="@color/common_white"
+          />
+
+
+      <TextView
+          android:id="@+id/tv_date_time"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textColor="@color/common_white"
+          />
+
+      <TextView
+          android:id="@+id/tv_lon"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textColor="@color/common_white"
+          />
+
+      <TextView
+          android:id="@+id/tv_lat"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:textColor="@color/common_white"
+          />
+    </LinearLayout>
+
+
+
+
+  </FrameLayout>
+</LinearLayout>

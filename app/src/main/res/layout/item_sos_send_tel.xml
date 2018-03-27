@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/layout_swipe_tel_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+             <TextView
+                android:id="@+id/btn_delete"
+                android:layout_width="@dimen/dimen_100_dp"
+                android:layout_height="match_parent"
+                android:background="@color/common_red"
+                android:gravity="center"
+                android:text="删除"
+                android:textColor="@color/common_white"
+                android:textSize="15sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_rootView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/common_white"
+            android:padding="@dimen/dimen_10_dp">
+
+            <TextView
+                android:id="@+id/tv_contactName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text=""
+                android:textColor="@color/common_black"
+                android:textSize="@dimen/dimen_14_sp" />
+
+
+            <TextView
+                android:id="@+id/tv_contactTelephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_contactName"
+                android:text=""
+                android:textColor="@color/common_black"
+                android:textSize="@dimen/dimen_14_sp" />
+        </RelativeLayout>
+
+    </com.daimajia.swipe.SwipeLayout>
+
+</LinearLayout>

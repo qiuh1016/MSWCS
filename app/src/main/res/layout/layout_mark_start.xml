@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dimen_100_dp"
+    android:layout_height="match_parent">
+
+
+
+
+   <TextView
+       android:id="@+id/tv_mark_start"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@mipmap/popup"
+       android:text=""
+       android:textColor="@color/common_white"
+       android:gravity="center_horizontal"
+       android:paddingTop="3dp"
+       />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_st"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

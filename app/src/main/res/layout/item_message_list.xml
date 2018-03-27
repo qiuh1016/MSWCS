@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_rootView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_white"
+        android:padding="@dimen/dimen_10_dp">
+
+        <ImageView
+            android:id="@+id/iv_user_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_user_head" />
+
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10_dp"
+            android:layout_toRightOf="@id/iv_user_head"
+            android:text="张海洋"
+            android:textColor="@color/common_black"
+            android:textSize="@dimen/dimen_14_sp" />
+
+
+        <TextView
+            android:id="@+id/tv_send_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="08:22"
+            android:textColor="@color/color_unit"
+            android:textSize="@dimen/dimen_12_sp" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/iv_new_msg"
+            android:layout_width="@dimen/dimen_15_dp"
+            android:layout_height="@dimen/dimen_15_dp"
+            android:layout_below="@id/tv_user_name"
+            android:layout_marginRight="@dimen/dimen_10_dp"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/img_new_msg"
+            android:text=""
+            android:maxLength="3"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textSize="@dimen/dimen_8_sp"
+            android:textColor="@color/common_white"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_user_name"
+            android:layout_marginLeft="@dimen/dimen_10_dp"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:layout_toRightOf="@id/iv_user_head"
+            android:layout_toLeftOf="@id/iv_new_msg"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="消息内容消息内容消息内容消息内容消息内容消息内容"
+            android:textColor="@color/color_unit"
+            android:textSize="@dimen/dimen_12_sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
