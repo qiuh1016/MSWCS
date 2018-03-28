@@ -1,8 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "27.0.0"
+    compileSdkVersion 26
 
     signingConfigs {
         def Properties localProps = new Properties()
@@ -34,7 +33,7 @@ android {
     defaultConfig {
         applicationId "com.zhd.mswcs"
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -56,8 +55,6 @@ android {
         }
     }
 
-
-
     sourceSets{
         main{
             jniLibs.srcDirs 'libs'
@@ -72,24 +69,24 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25+'
-    compile 'com.android.support:design:25+'
-    compile 'io.reactivex:rxandroid:1.1.0'
-    compile 'com.squareup.retrofit2:retrofit:2.1.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
-    compile 'com.huxq17.xrefreshview:xrefreshview:3.6.9'
-    testCompile 'junit:junit:4.12'
-    compile project(':MvpFramework')
-    compile 'org.xutils:xutils:3.5.0'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26+'
+    implementation 'io.reactivex:rxandroid:1.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    implementation 'com.huxq17.xrefreshview:xrefreshview:3.6.9'
+    testImplementation 'junit:junit:4.12'
+    implementation project(':MvpFramework')
+    implementation 'org.xutils:xutils:3.5.0'
     //compile 'com.yanzhenjie:album:2.0.0'
-    compile 'com.alibaba:fastjson:1.2.35'
-    compile 'com.android.support:recyclerview-v7:25+'
-    compile 'com.android.support:support-v4:25+'
-    compile "com.daimajia.swipelayout:library:1.2.0@aar"
+    implementation 'com.alibaba:fastjson:1.2.35'
+    implementation 'com.android.support:recyclerview-v7:26+'
+    implementation 'com.android.support:support-v4:26+'
+    implementation "com.daimajia.swipelayout:library:1.2.0@aar"
 
 }

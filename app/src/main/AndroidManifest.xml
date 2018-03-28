@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zhd.mswcs"
-    android:versionCode="1"
-    android:versionName="1.0.0">
-
-    <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="25"
-        />
+    package="com.zhd.mswcs">
 
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
@@ -51,7 +44,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <!-- 浮动通知权限 -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <!-- iBeancon功能所需权限 -->;
+    <!-- iBeancon功能所需权限 -->
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
     <!-- 个推3.0电子围栏功能所需权限 -->
