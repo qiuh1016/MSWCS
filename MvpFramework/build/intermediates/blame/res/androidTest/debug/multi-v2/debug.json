@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/qiuhong/Documents/work/2-SoftwareDevelop/2017DK08-自适应选频遥控电台/source/MSWCS/MvpFramework/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/qiuhong/Documents/work/2-SoftwareDevelop/2017DK08-自适应选频遥控电台/source/MSWCS/MvpFramework/build/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,166,205,246,350,453,519,810",
+                        "endLines": "2,3,4,5,6,7,8,15,18",
+                        "endColumns": "69,40,38,40,103,102,65,12,12",
+                        "endOffsets": "120,161,200,241,345,448,514,805,965"
+                    }
+                }
+            ]
+        }
+    ]
+}
